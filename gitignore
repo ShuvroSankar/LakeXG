@@ -1,0 +1,63 @@
+# ── macOS ─────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Jupyter ───────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── Trained models & serialized objects ───────────────
+# Tracked intentionally: commit only final named models
+# Uncomment the line below to ignore ALL pickles/models
+# *.pkl
+# *.json
+# *.joblib
+
+# ── Large data files ──────────────────────────────────
+# The LakeBeD-US-CSE dataset is too large for GitHub.
+# Store it locally or on a remote store (e.g. Zenodo, S3).
+Dataset/LakeBeD-US-CSE/
+Dataset/*.parquet
+*.parquet
+*.h5
+*.hdf5
+*.nc          # NetCDF
+*.tif
+*.tiff
+
+# ── Satellite raw downloads ───────────────────────────
+satellite_data/
+
+# ── Environment / secrets ─────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+earthaccess_token*
+
+# ── Editor / IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Outputs that can be regenerated ───────────────────
+# Comment out if you want to keep PNGs in the repo
+# *.png
