@@ -8,7 +8,7 @@
 
 Harmful algal blooms are a growing threat to inland water quality worldwide. Timely, accurate chlorophyll-a (Chl-a) estimation is essential for early warning — yet existing satellite retrieval algorithms, calibrated for open-ocean optics, routinely fail in optically complex lakes.
 
-LakeXG addresses this by training per-lake XGBoost models on high-frequency in-situ sensor data from the [LakeBeD-US dataset](https://github.com/FLARE-forecast/LakeBeD-US), covering six ecologically distinct US lakes. Models are evaluated against in-situ measurements and, where available, against Sentinel-2 satellite Chl-a retrievals using the 2BDA band-ratio algorithm.
+LakeXG addresses this by training per-lake XGBoost models on high-frequency in-situ sensor data from the [LakeBeD-US dataset]([https://github.com/FLARE-forecast/LakeBeD-US](https://portal.edirepository.org/nis/mapbrowse?packageid=knb-lter-ntl.435.1)), covering six ecologically distinct US lakes. Models are evaluated against in-situ measurements and, where available, against Sentinel-2 satellite Chl-a retrievals using the 2BDA band-ratio algorithm.
 
 ---
 
